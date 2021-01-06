@@ -124,7 +124,7 @@ while True:
 	   if off[i] != {}:
               print ("[{}] . {} (\x1b[1;32moffline\x1b[1;30m)".format(n+1,i))
            else:
-	      print ("[{}] . {} ".format(n+1,i))
+	      print ("\x1b[1;30m[{}] . {} ".format(n+1,i))
        raw_input("Enter To Clear")
     elif menu.lower() == "do":
        for sr in surah:
